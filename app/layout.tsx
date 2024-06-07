@@ -24,7 +24,7 @@ export default function RootLayout({
           <div className="hidden md:block h-[100vh] w-[300px]">
             <Sidebar />
           </div>
-          <div className="p-5 width-full md:max-w-[1140px]">
+          <div className="w-full max-h-full">
             {children}
           </div>
         </div>
